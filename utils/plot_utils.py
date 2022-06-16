@@ -28,7 +28,7 @@ def add_value_labels(ax, colors, spacing=2):
             va = 'top'
 
         # Use Y value as label and format number with one decimal place
-        label = "{:.2f}".format(y_value)
+        label = "{:.3f}".format(y_value)
 
         # Create annotation
         ax.annotate(
